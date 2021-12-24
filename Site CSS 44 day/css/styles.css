@@ -1,0 +1,44 @@
+body {
+  height:100vh;
+  font-family: 'FreeMono', monospace;
+  background-image: url('https://boavidaonline.com.br/wp-content/uploads/2017/12/gif-de-gato.gif');
+  background-color: #000000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+p {
+ color: white;
+ position: fixed;
+	width: 100%;
+	font-family: "Bandeins Strange";
+	font-size: 1rem;
+	text-align: center;
+	font-variation-settings: "wght" 30, "wdth" 30;
+	top: 55%;
+	transform: translateY(-50%);
+}
+
+h1 {
+  color: white;
+	position: fixed;
+	width: 100%;
+	font-family: "Bandeins Strange";
+	font-size: 4rem;
+	text-align: center;
+	font-variation-settings: "wght" 100, "wdth" 100;
+	top: 50%;
+	transform: translateY(-100%);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p1 {
+  color: white;
+  text-align: center;
+}
+

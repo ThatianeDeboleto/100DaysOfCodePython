@@ -1,0 +1,24 @@
+/* to override Bootstrap styles for some things */
+
+body {
+background-color: #D2691E;
+color: white;
+}
+
+a {
+    color: #D2691E;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: #D2691E;
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
