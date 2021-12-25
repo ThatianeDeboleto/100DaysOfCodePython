@@ -1,1 +1,0 @@
-print(another_module)
