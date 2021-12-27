@@ -1,0 +1,393 @@
+/*
+	Estilização do Tema em CSS
+*/
+
+
+/*
+	Menu de navegação fixo
+*/
+.nav-link {
+  color:#fff !important;
+}
+
+	a.nav-link:hover, a.nav-link:focus {
+	  color:#10c9c3 !important;
+	}
+
+
+
+
+
+/*
+	Parte inicial do site + Jumbotron
+*/
+.top-full{
+	padding: 0.1px;
+	background-image:url("img/back-4.jpg");
+	background-size: cover;
+	opacity: 1;
+	background-attachment: fixed;
+}
+
+	.container-retina{
+		opacity: 0.7;
+		padding: 0.1px;
+		background-color: #000;
+	}
+
+
+	.j-style{
+		padding: 0.15%;
+	    margin: 20% 0 10%;
+	    background: none;
+
+	}
+
+		.j-title{
+			color: #fff;
+			font-family: "montserrat",sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size:calc(13px + 2vw);
+		}
+
+		.j-buttom{
+		    text-transform: uppercase;
+		    font-size: 0.8rem;
+		    padding: 1% 3%;
+		    margin: 3% auto;
+		    border-radius: 0;
+		    display: table;
+		}
+
+			#buttontop{
+				background-color:#10c9c3;
+			}
+
+				a#buttontop:hover{
+					background-color:#343a40;
+				}
+
+
+
+
+
+/*
+	About ou Sobre nós
+*/
+.about-full{
+	padding: 0;
+	background-color: #fff;
+}
+
+	.title-about{
+		padding: 4% 0 0;
+		font-family: "montserrat",sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size:calc(13px + 2vw);
+	}
+
+	.p-about{
+		padding: 4% 20%;
+		font-family: "nunito-sans",sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: calc(11px + 1vw);
+		line-height: 1.65;
+	}
+
+	img.img-logo-about{
+		margin: 0 auto 10%;
+	    display: table;
+	    width: 100px;
+	}
+
+
+
+
+/*
+	Habilidades ou Skills
+*/
+.skills-full{
+	padding: 1%;
+	background-image: url("img/back-3.jpg");
+	background-size: cover;
+}
+
+	.title-container-skills{
+		margin: 13% 0 3% 5%;
+		width: 95%;
+		font-size:calc(12px + 3vw);
+	}
+
+		.title-skills{
+			margin: 2% 0 0 5%;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-family: "nunito-sans",sans-serif;
+			font-size: calc(11px + 1vw);
+		}
+
+
+
+
+/*
+	Números positivos (Resultados)
+*/
+.numbers-full{
+	background-color:#10c9c3;
+}
+
+	.row-icons{
+		padding: 8% 10%;
+		margin: 0;
+	}
+
+	img.card-icon{
+		width: 50px;
+		height: 50px;
+		margin:7% 0 0 0;
+	}
+
+	p.icon-text{
+		text-transform: uppercase;
+		font-weight: 400;
+		color: #fff;
+	}
+
+
+	.col-portfolio{
+		border-radius: 0;
+		padding: 0;
+	}
+
+		img.card-item{
+			border-radius: 0;
+		}
+
+
+
+
+
+/*
+	Efeito com CSS3 em Portfólio
+*/
+.hover-zoom {
+    position: relative;
+    overflow: hidden;
+}
+.hover-zoom img {
+    width: 100%;
+    border-radius: 2px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hover-zoom:hover img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.hover-zoom .retina{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+
+    -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hover-zoom:hover .retina {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+
+}
+.hover-zoom .retina p {
+    color: #fff;
+    margin: 15px auto 0;
+    font-size: 1.2em;
+    font-family: "nunito-sans", arial;
+}
+.hover-zoom .retina a {
+    display: block;
+    width: 150px;
+    background:#10c9c3;
+    border: 1px solid #59afd4;
+    border-radius: 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 70px auto 0;
+}
+
+
+/*
+	Diferenciais que você pode oferecer
+*/
+.detalhes-full{
+	background-color: #e1e6ea;
+}
+
+	img.card-work{
+		margin: 0 auto !important;
+		display: block;
+	}
+
+
+		.title-work{
+			text-align: center;
+		    width: 100%;
+		    float: left;
+		}
+
+		.work-text{
+			font-size: 0.9rem;
+			font-weight: 400;
+			text-align: center;
+		}
+
+
+
+
+/*
+	Carousel com depoimentos
+*/
+.carousel-position{
+	bottom: 90px;
+}
+
+
+
+
+/*
+	Marcas parceiras
+*/
+.card-logos{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+
+
+/*
+	Sessão de Contato + Form
+*/
+h5.subtitle-form{
+	text-align: center;
+    padding: 3% 0 6%;
+    font-weight: 400;
+}
+
+
+
+/*
+	Footer + Barra de navegação do fundo
+*/
+.footer{
+	background-color: #232023;
+}
+
+	strong.name-layout{
+		color: #fff;
+	    font-family: arial;
+	    font-size: 1.3rem;
+	    margin: 45% 0 10%;
+	    display: block;
+	}
+
+	span.copyright{
+		color: #fff;
+	    font-family: arial;
+	    display: block;
+	}
+
+	span.contact{
+		color: #fff;
+	    font-family: arial;
+	    margin: 45% 0 0 10%;
+	    display: block;
+	}
+
+.footer > .row > .col-6 > .row li{
+	text-align: right;
+}
+
+.footer > .row > .col-6 > .row a{
+	color: #fff;
+}
+
+	.footer > .row > .col-6 > .row a:hover{
+		color: red;
+	}
+
+
+
+
+/*
+	Media Query
+*/
+@media(max-width: 991px) {
+	img.card-icon{
+		margin: 0;
+	}
+	.card-body{
+		padding: 0.2rem 0.8rem;
+	}
+	.col-details{
+    	margin: 4% 0 0;
+    }
+    strong.name-layout{
+	    margin: 10% 0 5%;
+	}
+	span.contact{
+	    margin: 10% 0 5%;
+	}
+	.row-footer-submenu{
+		margin: 5% 0 0 !important;
+	}
+}
+
+
+@media(max-width: 575px) {
+	.p-about{
+		padding: 4% 10%;
+	}
+	.col-portfolio .card-portfolio{
+		margin: 7% auto;
+		display: table;
+	}
+	.col-portfolio .card-portfolio img{
+		display: table;
+    	margin: 0 auto;
+    }
+    p.icon-text{
+    	text-align:center;
+    }
+    .col-details{
+    	margin: 7% auto;
+    }
+    .col-logo{
+    	margin: 6% 0 12%;
+    	flex-basis: auto;
+    }
+}
+
+     .redes-sociais {
+            text-align:center;
+}
