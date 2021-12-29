@@ -1,0 +1,44 @@
+@mixin banners-promocionais($cor, $url-image) {
+  background-color: $cor;
+  background-image: url($url-image);
+}
+
+.banners-promocionais-statico{
+  margin-top: 30px;
+
+  .banners-promocionais-statico-12x{
+    @include banners-promocionais($rosa, '../images/parcele-em-12x.jpg');
+  }
+
+  .banners-promocionais-statico-todo-br{
+    @include banners-promocionais($roxo, '../images/entrega-para-todo-brasil.jpg');
+  }
+
+  .banners-promocionais-statico-12x,
+  .banners-promocionais-statico-todo-br{
+    background-size: cover;
+    height: 105px;
+    padding: 20px 60px;
+    color: $branco;
+
+    svg, p{
+      margin: 0;
+      padding: 0;
+    }
+
+    svg{
+      font-size: 55px;
+    }
+
+    p{
+      font-weight: 100;
+      font-size: 23px;
+      line-height: 110%;
+      margin-left: 20px;
+      strong{
+        font-weight: bold;
+      }
+    }
+
+  }
+}
