@@ -7,7 +7,9 @@ Concluí o curso "100 Dias de Código - O Bootcamp Pro Python Completo para 2021
 
 👨🏻‍🎓 iniciante
 Dia 1: Trabalhando com Variáveis ​​em Python para Gerenciar Dados
+
 Dia 2: Compreendendo os tipos de dados e como manipular strings
+
 Dia 3: Fluxo de controle e operadores lógicos
 Dia 4: Randomização e listas Python
 Dia 5: Loops Python
