@@ -1,5 +1,5 @@
 # 100DaysOfCodePython
-gif
+
 
 100 dias de Python 🐍 
 
