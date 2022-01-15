@@ -3,6 +3,8 @@
 
 100 dias de Python 🐍 
 
+![TbpbVsuaN_N57EEo5M-r3WaC-ZFTCS2-4YLb7akht6I](https://user-images.githubusercontent.com/91338088/149630953-c49f3588-6c9c-4825-a17d-3c62722625f4.jpg)
+
 Concluí o curso "100 Dias de Código - Bootcamp ministrado pela Dra. Angela Yu, na plataforma Udemy, para iniciantes em busca de conhecimentos na área de desenvolvimento, este foca exclusivamente em Python. Como meu objetivo é dominar o Python, optei por fazer este curso na esperança de que fornecesse mais estrutura e melhor orientação do que eu estava recebendo durante o "autoaprendizado". Enquanto participava deste curso, tenho feito anotações e outras coisas e tentado todos os dias dar meu melhor no desenvolvimento dos projetos do curso com o melhor de minhas habilidades. Usarei este repositório como uma forma de acessá-los, caso eu precise relembrar meus conhecimentos. 100 projetos em 100 dias. Realmente recomendo: 100 Dias de Código - O Bootcamp Python.
 
 Espero que meus projetos ajude e motive a cada um.
