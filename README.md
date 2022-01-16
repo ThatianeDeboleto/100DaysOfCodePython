@@ -226,5 +226,7 @@ Dia 100: Projeto de portfólio - Prevendo ganhos usando regressão multivariáve
 
 Python 3 | PyCharm, Jupyter Notebook, Google Colab | Python Scripting and Automation | Python Game Development | Web Scraping | Beautiful Soup | Selenium Web Driver | Request | WTForms | Data Science | Pandas | NumPy | Matplotlib | Plotly | Scikit learn | Seaborn | Turtle | Python GUI Desktop App Development |Tkinter | Front-End Web Development | HTML 5 | CSS 3 | Bootstrap 4 | Bash Command Line | Git, GitHub and Version Control | Backend Web Development | Flask | REST | APIs | Databases | SQL | SQLite | PostgreSQL | Authentication | Web Design | Deployment with GitHub Pages, Heroku and GUnicorn
 
+[100daysofcode (1).pdf](https://github.com/ThatianeDeboleto/100DaysOfCodePython/files/7876845/100daysofcode.1.pdf)
+
 
 @ThatianeDeboleto 🐍 2022
