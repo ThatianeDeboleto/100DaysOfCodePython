@@ -5,7 +5,7 @@ print(name)
 name = "Pedro"
 print(name)
 
-name = input("What is your name? ")
+name = input("qual seu nome? ")
 length = len(name)
 
 print(length)
