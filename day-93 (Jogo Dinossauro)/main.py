@@ -9,7 +9,7 @@ pygame.init()
 diretorio_principal = os.path.dirname(__file__)
 diretorio_imagens = os.path.join(diretorio_principal, 'imagens')
 diretorio_sons = os.path.join(diretorio_principal, 'sons')
-
+#dimensoes da tela e projeção 
 LARGURA = 640
 ALTURA = 480
 
@@ -30,7 +30,7 @@ class Dino(pygame.sprite.Sprite):
             img = sprite_sheet.subsurface((i * 32, 0), (32, 32))
             img = pygame.transform.scale(img, (32 * 3, 32 * 3))
             self.imagens_dinossauro.append(img)
-#96 valor altura do dino
+#96 valor altura do dinossauro
         self.index_lista = 0
         self.image = self.imagens_dinossauro[self.index_lista]
         self.rect = self.image.get_rect()
