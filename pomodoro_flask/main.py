@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, date, timedelta
 import random, string
-
+#pip install Flask-SLAlchemy 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///store.db'
 
