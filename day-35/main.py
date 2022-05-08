@@ -1,8 +1,4 @@
-#Observação! Para que o código funcione, você precisa substituir todos os marcadores de posição por
-#Seus próprios detalhes. por exemplo. account_sid, lat / lon, de / para números de telefone.
 
-#chaves de API: verificar o número de acessos e quantos fazem uso de seus dados.
-#autenticação, variaveis de ambiente,sms usando py
 import requests
 import os
 from twilio.rest import Client
